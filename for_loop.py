@@ -19,3 +19,9 @@ total = 0
 for price in prices:
    total = total + price
 print(f'total:{total}')
+
+
+#count the number of letters of each words
+word = {"Babita", "Bijaya", "Asmitaa Bhandari"}
+for w in word:
+   print(w,":", len(w))
